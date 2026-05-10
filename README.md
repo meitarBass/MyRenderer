@@ -28,7 +28,7 @@ Generic Template Library: Custom Vec<T, n> and Matrix<T, M, N> structures utiliz
 * **Perspective-Correct Shading**: Advanced barycentric interpolation accounting for the $1/w$ depth component.
 
 ### 🎨 Graphics Features
-* **Advanced Lighting**: Full Blinn-Phong model with Normal & Specular mapping.
+* **Advanced Lighting**: Phong model with Normal & Specular mapping.
 * **Soft Shadows**: Shadow mapping with a **3x3 PCF (Percentage Closer Filtering)** kernel for realistic edges.
 * **Ambient Occlusion**: An optimized **SSAO** pass to simulate global soft shadows, refactored into pure mathematical functions for strict SRP adherence.
 * **Raw Binary I/O**: Custom **TGA encoder** for direct image generation without external dependencies.
